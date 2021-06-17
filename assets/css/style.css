@@ -180,5 +180,14 @@ padding: 30px;
 #circle-cover-bg {
     height: 100%;
     border-radius: 50%;
-    background: url(../images/ethos-center-image.jpeg);
+    background: url('../images/ethos-center-image.jpeg') no-repeat center center;
+}
+
+#times {
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
 }
